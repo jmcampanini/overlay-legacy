@@ -9,8 +9,8 @@ Command help is the canonical reference: `overlay --help` and each command's `--
 ### Homebrew `--HEAD` (macOS)
 
 ```shell
-brew tap jmcampanini/overlay-v1 https://github.com/jmcampanini/overlay-v1
-brew install --HEAD jmcampanini/overlay-v1/overlay
+brew tap jmcampanini/overlay-legacy https://github.com/jmcampanini/overlay-legacy
+brew install --HEAD jmcampanini/overlay-legacy/overlay
 ```
 
 Upgrade to the latest commit:
@@ -87,7 +87,7 @@ profiles = ["work"]        # optional
 
 ## Known gaps
 
-- Symlink behavior is not yet a stable contract. Source-side behavior is tracked in [#54](https://github.com/jmcampanini/overlay-v1/issues/54) and target-write behavior in [#34](https://github.com/jmcampanini/overlay-v1/issues/34); each command's `--help` states what happens today.
+- Symlink behavior is not yet a stable contract. Source-side behavior is tracked in [#54](https://github.com/jmcampanini/overlay-legacy/issues/54) and target-write behavior in [#34](https://github.com/jmcampanini/overlay-legacy/issues/34); each command's `--help` states what happens today.
 
 ## Development
 

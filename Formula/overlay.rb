@@ -1,8 +1,8 @@
 class Overlay < Formula
   desc "Merge layered JSON/TOML/YAML configuration files by profile"
-  homepage "https://github.com/jmcampanini/overlay-v1"
+  homepage "https://github.com/jmcampanini/overlay-legacy"
   license "MIT"
-  head "https://github.com/jmcampanini/overlay-v1.git", branch: "main"
+  head "https://github.com/jmcampanini/overlay-legacy.git", branch: "main"
 
   depends_on "go" => :build
 
